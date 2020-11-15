@@ -1,0 +1,40 @@
+body{
+	background-color: rgba(202,202,202,1.00);
+}
+textarea{
+	resize: none;
+	background-color: rgba(224,224,224,1.00);
+}
+.text{
+	font-family: Arial;
+}
+.calculator{
+	width: 650px;
+}
+.butNum{
+	background-color: rgba(219,219,219,1.00);
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 30px;
+	border-width: 1px;
+	border-color: gray;
+}
+.butNum:hover{
+	background-color: rgba(235,235,235,1.00);
+}
+.butNum:focus {
+ 	outline: none;
+ 	box-shadow: none;
+}
+.inputs{
+	width: 320px;
+}
+.display{
+	width: 315px;
+	font-size: 50px;
+	height: 60px;
+	text-align: right;
+	border-color: gray;
+}
+	
